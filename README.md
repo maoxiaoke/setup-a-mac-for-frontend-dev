@@ -23,7 +23,7 @@ Also, I'm big fan of tree finger dragging.
 1. Go 「**System Preference -> Accessibility**」.
 2. In the Accessibility sidebar, choose option 「**Pointer Control**」.
 3. Click the button 「**Trackpad Options**」.
-4. Enable dragging and select 「**three finger drg**」.
+4. Enable dragging and select 「**three finger drag**」.
 
 ![](./enable-three-finger-drag.png)
 
@@ -59,11 +59,11 @@ $ brew install --cask iterm2
 
 2. **Change a few settings of iterm2**
 
-+ Go 「iterm2 Preferences -> Profiles -> Default -> Window」, add transparency and blur.
++ Go 「**iterm2 Preferences -> Profiles -> Default -> Window**」, add transparency and blur.
 
 ![](./iterm2-blur.png)
 
-+ Go 「iterm2 Preferences -> Profiles -> Default -> Keys -> Key Mappings」, replace the standard ones with the preset "Natural Text Editing".
++ Go 「**iterm2 Preferences -> Profiles -> Default -> Keys -> Key Mappings**」, replace the standard ones with the preset "Natural Text Editing".
 
 ![](./iterm2-natural-text-editing.png)
 
