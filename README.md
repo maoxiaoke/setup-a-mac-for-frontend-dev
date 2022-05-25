@@ -65,5 +65,5 @@ $ brew install --cask iterm2
 
 + Go 「**iterm2 Preferences -> Profiles -> Default -> Keys -> Key Mappings**」, replace the standard ones with the preset "Natural Text Editing".
 
-![](./iterm2-natural-text-editing.png)
+![](./iterm2-natural-text-editing.jepg)
 
