@@ -85,13 +85,12 @@ For compelete guide, dive into it's [docs](https://github.com/oskarkrawczyk/honu
 
 5. **Add useful oh-my-zsh plugins**
 
-Oh My Zsh is powered by plugins. I'll share my top 4 plugins.
+Oh-my-zsh is powered by plugins. I'll share my top 3 plugins.
 
 ```text
 plugins=(
  git
  autojump
- colorize
  zsh-syntax-highlighting
 )
 ```
@@ -100,7 +99,45 @@ plugins=(
 
 The [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin is enabled by default. It provides many aliases and a few useful functions.
 
+![](./git-plugin.png)
 
+To use it, add `git` to the plugins array in your zshrc file:
 
-To 
+```text
+plugins=(git)
+```
+
+2. the `autojump` plugin
+
+Use Homebrew to install [autojump](https://github.com/wting/autojump#installation).
+
+```shell
+$ brew install autojump
+```
+
+After that, add `autojump` to your zshrc file:
+
+```text
+plugins=(... autojump)
+```
+
+3. the `zsh-syntax-highlighting` plugin
+
+The installation of [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) may be tedious. But it worth the effort.
+
+Clone the [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) repository in oh-my-zsh's plugins directory:
+
+```shell
+$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+Then, activate the plugin in `~/.zshrc`:
+
+```text
+plugins=(... zsh-syntax-highlighting)
+```
+
+> After adding the plugins to your `.zshrc` file, you have to restart zsh to activate them, using the command `source ~/.zshrc`.
+
+> You can find all my settings of `.zshrc` [here](https://gist.githubusercontent.com/maoxiaoke/0f61f217c428dcfba48067622db83a8e/raw/78da5225ff3cdc8df38db28b8f872a6f6836cfc2/__Configurations__---zshrc.text).
 
