@@ -67,3 +67,40 @@ $ brew install --cask iterm2
 
 ![](./iterm2-natural-text-editing.jepg)
 
+3. **Install Oh My Zsh**
+
+The great thing about this is that you can customize your shell and add plugins. Unlike the old Bash shell, which does not look attractive and can make it difficult for you to use.
+
+```shell
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+4. ***Choose your favorite theme**
+
+There are [multiple themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) you can choose from. My favorite theme is [honukai](https://github.com/oskarkrawczyk/honukai-iterm-zsh) and it should look like in the screenshot:
+
+![](./honukai-theme.png)
+
+For compelete guide, dive into it's [docs](https://github.com/oskarkrawczyk/honukai-iterm-zsh).
+
+5. **Add useful oh-my-zsh plugins**
+
+Oh My Zsh is powered by plugins. I'll share my top 4 plugins.
+
+```text
+plugins=(
+ git
+ autojump
+ colorize
+ zsh-syntax-highlighting
+)
+```
+
+1. the `git` plugin
+
+The [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin is enabled by default. It provides many aliases and a few useful functions.
+
+
+
+To 
+
