@@ -65,7 +65,7 @@ $ brew install --cask iterm2
 
 + Go 「**iterm2 Preferences -> Profiles -> Default -> Keys -> Key Mappings**」, replace the standard ones with the preset "Natural Text Editing".
 
-![](./iterm2-natural-text-editing.jepg)
+![](./iterm2-natural-text-editing.png)
 
 3. **Install Oh My Zsh**
 
@@ -173,6 +173,66 @@ I do not have many workflows installed. One of my installed workflows is [Youdao
 
 Follow the [official guide](https://github.com/wensonsmith/YoudaoTranslator/wiki) to enable "YoudaoTranslator".
 
+## Development Tools
 
+### VSCODE
 
+I prefer [vscode](https://code.visualstudio.com/) to code. You can use github account to sync your setttings.
 
+My favorite font is [Overpass Mono](https://fonts.google.com/specimen/Overpass+Mono) and It should look like in the screenshot:
+
+![](./vscode-editing.png)
+
+### Launch vscode from the command line
+
+Opening vscode from your terminal is a quick, easy way to open up new projects and begin coding faster.
+
+Add the following text to your `.zshrc` files:
+
+```text
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+```
+
+After restarting terminal or use `source ~/.zshrc`, you can open vscode by typing `code .`.
+
+Here's how this should look:
+
+![](./vscode-code-command.png)
+
+### pnpm
+
+[pnpm](https://pnpm.io/) is fast, disk space efficient package manager, works as an alternative of [npm](https://www.npmjs.com/).
+
+Install pnpm using Homebrew:
+
+```shell
+$ brew install pnpm
+```
+
+### volta
+
+I use [volta](https://volta.sh/) to manage multiple [Node.js](https://nodejs.org/en/) versions.
+
+## Other Softwares
+
+### Whimsical
+
+My favorite drawing app out there. [Whimsical](https://whimsical.com/) is so great that I compeleted most of my drawings (You can find them [here](https://twitter.com/xiaokedada/status/1522792342893510656) and [here](https://twitter.com/xiaokedada/status/1471691763102679041)).
+
+Because Whimsical support [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) already. You can install it as normal apps.
+
+### obsidian
+
+[obsidian](https://obsidian.md/) is my note-taking app I use.
+
+### Notion
+
+[Notion](https://www.notion.so/desktop) is where I writing articles.
+
+### Other useful softwares
+
++ [Shottr](https://shottr.cc/) - Screenshot tool, it is powerful and easy to use.
++ [Anki Notes](https://apps.apple.com/us/app/anki-notes-flashcards-maker/id1388842081) - Memory app to learn English.
++ [ScreenFlow](http://www.telestream.net/screenflow/overview.htm) - Video editing & screen recording.
++ [kap](https://getkap.co/) - Screen recorder to generate gif.
++ [magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12) - Window manager.
