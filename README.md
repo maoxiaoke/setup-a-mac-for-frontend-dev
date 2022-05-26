@@ -75,7 +75,7 @@ The great thing about this is that you can customize your shell and add plugins.
 $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-4. ***Choose your favorite theme**
+4. **Choose your favorite theme**
 
 There are [multiple themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) you can choose from. My favorite theme is [honukai](https://github.com/oskarkrawczyk/honukai-iterm-zsh) and it should look like in the screenshot:
 
@@ -140,4 +140,39 @@ plugins=(... zsh-syntax-highlighting)
 > After adding the plugins to your `.zshrc` file, you have to restart zsh to activate them, using the command `source ~/.zshrc`.
 
 > You can find all my settings of `.zshrc` [here](https://gist.githubusercontent.com/maoxiaoke/0f61f217c428dcfba48067622db83a8e/raw/78da5225ff3cdc8df38db28b8f872a6f6836cfc2/__Configurations__---zshrc.text).
+
+## Install Alfred
+
+Now, it is time for [Alfred](https://www.alfredapp.com/) - an alternative for Spotlight.
+
+## Use Spotlight Keyboard Shortcut for Alfred
+
+when installing Alfred, the first thing I do is disabling the default shortcut for Spotlight and use it for Alfred.
+
+To do that, open **System Preference -> Keyboard -> Shortcuts**. Click on "Spotlight" and disable "Show Spotlight search".
+
+![](./diable-spotlight-shortcut.png)
+
+Open the Alfred settings and use the freed up `⌘ Space` combination to launch Alfred.
+
+![](./update-alfred-shortcut.png)
+
+### Clipboard History
+
+Copy and pasting is something developers do everyday. Alfred ships with a clipboard manager which supports copied text, images and files.
+
+The only thing I do is remapping the shortcut to `⌘ .` to the Clipboard History.
+
+![](./clipboard-history-shortcut.png)
+
+### Workflows
+
+I do not have many workflows installed. One of my installed workflows is [YoudaoTranslator](https://github.com/wensonsmith/YoudaoTranslator), which provides translation service.
+
+![](./update-alfred-shortcut.png)
+
+Follow the [official guide](https://github.com/wensonsmith/YoudaoTranslator/wiki) to enable "YoudaoTranslator".
+
+
+
 
