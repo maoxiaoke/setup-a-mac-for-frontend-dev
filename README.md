@@ -4,6 +4,28 @@ Setting up a new Macbook will be tough and cumbersome. Every time I am getting a
 
 I create a record of my setup, hoping it's helpful for others too!
 
++ [Immediate Frist Steps](#immediate-frist-steps)
+  + [Enable Tap to Click](#enable-tap-to-click)
+  + [Enable Three Finger Dragging](#enable-three-finger-dragging)
+  + [Change Wallpaper](#change-wallpaper)
+  + [Download Edge](#download-edge)
++ [Install Homebrew](#install-homebrew)
++ [Setup Terminal](#setup-terminal)
++ [Install Alfred](#install-alfred)
+  + [Use Spotlight Keyboard Shortcut for Alfred](#Use-spotlight-keyboard-shortcut-for-alfred)
+  + [Clipboard History](#clipboard-history)
+  + [Workflows](#workflows)
++ [Development Tools](#development-tools)
+  + [vscode](#vscode)
+  + [pnpm](#pnpm)
+  + [volta](#volta)
++ [Other Softwares](#other-softwares)
+  + [Whimsical](#whimsical)
+  + [obsidian](#obsidian)
+  + [Notion](#notion)
+  + [Other useful softwares](#other-useful-softwares)
+
+
 ## Immediate Frist Steps
 
 ### Enable Tap to Click
@@ -145,7 +167,7 @@ plugins=(... zsh-syntax-highlighting)
 
 Now, it is time for [Alfred](https://www.alfredapp.com/) - an alternative for Spotlight.
 
-## Use Spotlight Keyboard Shortcut for Alfred
+### Use Spotlight Keyboard Shortcut for Alfred
 
 when installing Alfred, the first thing I do is disabling the default shortcut for Spotlight and use it for Alfred.
 
@@ -175,7 +197,7 @@ Follow the [official guide](https://github.com/wensonsmith/YoudaoTranslator/wiki
 
 ## Development Tools
 
-### VSCODE
+### vscode
 
 I prefer [vscode](https://code.visualstudio.com/) to code. You can use github account to sync your setttings.
 
@@ -183,7 +205,7 @@ My favorite font is [Overpass Mono](https://fonts.google.com/specimen/Overpass+M
 
 ![](./vscode-editing.png)
 
-### Launch vscode from the command line
+#### Launch vscode from the command line
 
 Opening vscode from your terminal is a quick, easy way to open up new projects and begin coding faster.
 
@@ -229,7 +251,7 @@ Because Whimsical support [PWA](https://developer.mozilla.org/en-US/docs/Web/Pro
 
 [Notion](https://www.notion.so/desktop) is where I writing articles.
 
-### Other useful softwares
+### Other Useful softwares
 
 + [Shottr](https://shottr.cc/) - Screenshot tool, it is powerful and easy to use.
 + [Anki Notes](https://apps.apple.com/us/app/anki-notes-flashcards-maker/id1388842081) - Memory app to learn English.
