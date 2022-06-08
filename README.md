@@ -4,7 +4,7 @@ Setting up a new Macbook will be tough and cumbersome. Every time I am getting a
 
 I create a record of my setup, hoping it's helpful for others too!
 
-+ [Immediate Frist Steps](#immediate-frist-steps)
++ [Immediate First Steps](#immediate-first-steps)
   + [Enable Tap to Click](#enable-tap-to-click)
   + [Enable Three Finger Dragging](#enable-three-finger-dragging)
   + [Change Wallpaper](#change-wallpaper)
@@ -26,7 +26,7 @@ I create a record of my setup, hoping it's helpful for others too!
   + [Other useful softwares](#other-useful-softwares)
 
 
-## Immediate Frist Steps
+## Immediate First Steps
 
 ### Enable Tap to Click
 
