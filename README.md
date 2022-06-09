@@ -7,6 +7,7 @@ I create a record of my setup, hoping it's helpful for others too!
 + [Immediate First Steps](#immediate-first-steps)
   + [Enable Tap to Click](#enable-tap-to-click)
   + [Enable Three Finger Dragging](#enable-three-finger-dragging)
+  + [Enable App Exposé with trackpad](#enable-app-exposé-with-trackpad)
   + [Change Wallpaper](#change-wallpaper)
   + [Download Edge](#download-edge)
 + [Install Homebrew](#install-homebrew)
@@ -48,6 +49,18 @@ Also, I'm big fan of tree finger dragging.
 4. Enable dragging and select 「**three finger drag**」.
 
 ![](./enable-three-finger-drag.png)
+
+### Enable App Exposé with trackpad
+
+"App Exposé" lets you see shows you all open and unhidden windows for your current app.
+
+![](./app-exposé.png)
+
+1. Go 「**System Preference -> Trackpad**」.
+2. Click the 「**More Gestures**」.
+3. Enable "App Exposé" and select 「**Swipe down with four fingers**」.
+
+![](./enable-app-exposé.png)
 
 ### Change Wallpaper
 
