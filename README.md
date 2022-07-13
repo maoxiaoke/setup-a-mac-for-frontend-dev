@@ -271,3 +271,4 @@ Because Whimsical support [PWA](https://developer.mozilla.org/en-US/docs/Web/Pro
 + [ScreenFlow](http://www.telestream.net/screenflow/overview.htm) - Video editing & screen recording.
 + [kap](https://getkap.co/) - Screen recorder to generate gif.
 + [magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12) - Window manager.
++ [Input Source Pro](https://inputsource.pro/) - A tool for multi-language users.
