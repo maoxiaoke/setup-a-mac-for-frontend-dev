@@ -208,6 +208,14 @@ I do not have many workflows installed. One of my installed workflows is [Youdao
 
 Follow the [official guide](https://github.com/wensonsmith/YoudaoTranslator/wiki) to enable "YoudaoTranslator".
 
+## Setting Up Your Mouse
+
+I use [Filco Majestouch 2](https://www.amazon.com/Filco-Majestouch-2-Keyboard-FKBN104M-EB2/dp/B004VKUSG6) for typing. As a result, most of the positions in which I use my MacBook make using the touchpad very difficult.
+
+### Activate Misson Control with a mouse button
+
+![](./mouse-mission-control.png)
+
 ## Development Tools
 
 ### vscode
