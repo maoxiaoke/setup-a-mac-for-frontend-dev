@@ -22,6 +22,8 @@ I create a record of my setup, hoping it's helpful for others too!
   + [pnpm](#pnpm)
   + [volta](#volta)
 + [Other Softwares](#other-softwares)
+  + [Dropover](#dropover)
+  + [iBar](#ibar)
   + [Whimsical](#whimsical)
   + [obsidian](#obsidian)
   + [Notion](#notion)
