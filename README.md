@@ -8,6 +8,7 @@ I create a record of my setup, hoping it's helpful for others too!
   + [Enable Tap to Click](#enable-tap-to-click)
   + [Enable Three Finger Dragging](#enable-three-finger-dragging)
   + [Enable App Exposé with trackpad](#enable-app-exposé-with-trackpad)
+  + [Eanble Stage Manager](#enable-stage-manager)
   + [Change Wallpaper](#change-wallpaper)
   + [Download Edge](#download-edge)
 + [Install Homebrew](#install-homebrew)
@@ -62,6 +63,14 @@ Also, I'm big fan of tree finger dragging.
 
 ![](./enable-app-exposé.png)
 
+### Enable Stage Manager
+
+Compared to multiple windows, I prefer [Stage Manager](https://support.apple.com/en-ph/102355). This feature arrived with macOS Ventura, and provides a little bit of ability to make your windows less cluttered.
+
+1. Click Control Center in the menu bar, then click Stage Manager.
+
+![](./enable-stage-manager.png)
+
 ### Change Wallpaper
 
 Visit [wallhaven](https://wallhaven.cc/) to find a wonderful wallpaper and replace the default ones.
@@ -84,7 +93,11 @@ Simply follow their installation guide, copy `/bin/bash -c "$(curl -fsSL https:/
 
 ## Setup Terminal
 
-Use [iTerm2](https://iterm2.com/) as macOS terminal replacement.
+**Now, I use [wrap](https://www.warp.dev/) as macOS terminal replacement. It's simple、and easier to setup.**
+
+---
+
+For those who may like [iTerm2](https://iterm2.com/) more, read the following guide.
 
 1. **Use the Homebrew to install iTerm2**
 
@@ -178,6 +191,8 @@ plugins=(... zsh-syntax-highlighting)
 
 ## Install Alfred
 
+> [Raycast](https://www.raycast.com/) is also a popular option right now. 
+
 Now, it is time for [Alfred](https://www.alfredapp.com/) - an alternative for Spotlight.
 
 ### Use Spotlight Keyboard Shortcut for Alfred
@@ -257,6 +272,14 @@ $ brew install pnpm
 I use [volta](https://volta.sh/) to manage multiple [Node.js](https://nodejs.org/en/) versions.
 
 ## Other Softwares
+
+## Dropover
+
+It's hard to Darg & Drop on Mac, especially with [Stage Manger](#enable-stage-manager) enabled. Finally, this [app](https://dropoverapp.com/) greatly alleviates this problem.
+
+## iBar
+
+[iBar](https://apps.apple.com/us/app/ibar-menubar-icon-control-tool/id6443843900?mt=12) is a powerful menu bar management tool.
 
 ### Whimsical
 
