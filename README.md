@@ -95,7 +95,7 @@ Simply follow their installation guide, copy `/bin/bash -c "$(curl -fsSL https:/
 
 ## Setup Terminal
 
-**Now, I use [wrap](https://www.warp.dev/) as macOS terminal replacement. It's simple、and easier to setup.**
+**Now, I use [wrap](https://www.warp.dev/) as macOS terminal replacement. It's simple and easier to setup.**
 
 ---
 
