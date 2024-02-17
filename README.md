@@ -144,7 +144,7 @@ Here's how to change the launchpad grid layout:
 
 1. Launch the built-in 「**Terminal**」app on your Mac.
 
-2. Run the following commands commands eventually customizing the grid size 
+2. Run the following commands eventually customizing the grid size
 
 ```shell
 # Set grid's rows to 8
