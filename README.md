@@ -140,6 +140,23 @@ Here is the current appearance of Launchpad.
 
 ![change launchpad icon grid layout to 10x8](./change-launchpad-grid-to-10x8.png)
 
+Here's how to change the launchpad grid layout:
+
+1. Launch the built-in 「**Terminal**」app on your Mac.
+
+2. Run the following commands commands eventually customizing the grid size 
+
+```shell
+# Set grid's rows to 8
+defaults write com.apple.dock springboard-rows -int 8
+
+# Set grid's columns to 10
+defaults write com.apple.dock springboard-columns -int 10
+
+# Restart the Dock app to apply the changes
+killall Dock
+```
+
 > To restore the default configuration, enter the following command.
 
 ```shell
