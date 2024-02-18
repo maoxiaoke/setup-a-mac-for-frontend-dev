@@ -376,9 +376,9 @@ My favorite drawing app out there. [Whimsical](https://whimsical.com/) is so gre
 
 Because Whimsical supports [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) already. You can install it as a normal app.
 
-### obsidian
+### Obsidian
 
-[obsidian](https://obsidian.md/) is the note-taking app I use.
+[Obsidian](https://obsidian.md/) is the note-taking app I use.
 
 ### Notion
 
