@@ -136,6 +136,17 @@ defaults delete com.apple.Dock autohide-delay && killall Dock
 
 By default, the Launchpad app grid usually displays icons in 7 rows and 5 columns of apps, but with a little adjustment from the command line of macOS, you can switch and customize the Launchpad icon grid to any number of apps you’d like to see on the Mac.
 
+```shell
+# Specify the number of columns to be used.
+defaults write com.apple.dock springboard-columns -int 10
+
+# Specify the number of rows to be used.
+defaults write com.apple.dock springboard-rows -int 8
+
+# Restart the Dock to apply the changes.
+killall Dock
+```
+
 Here is the current appearance of Launchpad.
 
 ![change launchpad icon grid layout to 10x8](./change-launchpad-grid-to-10x8.png)
